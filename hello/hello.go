@@ -2,8 +2,9 @@ package main
 
 import "fmt"
 
-import "rsc.io/quote"
+var msg = "Hello"
 
 func main() {
-	fmt.Println(quote.Go())
+	fmt.Println(msg)
+	fmt.Println("世" + "界")
 }
